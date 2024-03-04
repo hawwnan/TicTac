@@ -1,0 +1,94 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    height: 70vh; 
+}
+
+body {
+    background-color: #BE7C4D;
+    text-align: center;
+}
+
+h1{
+    font-size: 2rem;
+    color: white;
+}
+
+.game{
+    height: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+
+.box {
+    height: 17vmin;
+    width: 17vmin;
+    border: solid black;
+    border-radius: 1.5rem;
+    box-shadow: 1rem;
+    border: none;
+    font-size: 6vmin;
+    color: black;
+    background-color: #C1B4AE;
+}
+
+.reset-btn {
+    background-color: #353238;
+    height: 5em;
+    width: 15em;
+    color: white;
+    border-radius: 5em;
+    border: none;
+    font-size: 1rem;
+}
+
+p{
+    color: white;
+    font-size: 2rem;
+
+}
+
+.new-btn{
+    background-color: #353238;
+    height: 5em;
+    width: 15em;
+    color: white;
+    border-radius: 5em;
+    border: none;
+    font-size: 1rem;
+}
+
+.hidden {
+    display: none;
+}
+
+.image {
+    height: 25rem;
+    border-radius: 2rem;
+    margin-bottom: 2em;
+}
+
+.img{
+    height: 25rem;
+    border-radius: 2rem;
+    margin-bottom: 2em;
+}
+
+.madimi-one-regular {
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.red {
+    color: #92140C;
+}
+
+.black{
+    color : black
+}

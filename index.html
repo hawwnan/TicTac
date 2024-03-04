@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Madimi+One&display=swap" rel="stylesheet">
+    <link href="./style.css" rel="stylesheet">
+    <title>Tic Tac Toe</title>
+</head>
+<body>
+    <div class="msg-container hidden">
+        <div><img class="image hidden" src="./images/3.gif"/></div>
+        <div><img class="img hidden" src="./images/4.gif"></div>
+        <p class="msg hidden madimi-one-regular">Winner</p>
+        <button class="new-btn">New Game</button>
+    </div>
+    <main>
+        <h1 class="madimi-one-regular">Tic Tac Toe</h1>
+        <div class="container">
+            <div class="game">
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+            </div>
+        </div>
+    </main>
+    <button class="reset-btn">Reset Game</button>
+    <script src="./app.js"></script>
+</body>
+</html>
